@@ -27,12 +27,16 @@ export default{
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/products">Products</RouterLink>
+        <RouterLink to="/cart">Cart</RouterLink> |
+        <RouterLink to="/admin">Login</RouterLink>
+        <RouterLink to="/admin/products">產品管理</RouterLink>
+        <RouterLink to="/admin/orders">產品管理</RouterLink>
       </nav>
       <CardComponent></CardComponent>
     </div>
   </header>
-
-  <RouterView />
+    <RouterView />
 </template>
 
 <style scoped>
